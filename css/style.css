@@ -1,0 +1,300 @@
+.hm-gradient {
+  /* background-image: linear-gradient(to top, #f3e7e9 0%, #e3eeff 99%, #e3eeff 100%);*/
+   /* background-image: linear-gradient(to top, #fafafa  0%, #fafafa 99%, #fafafa  100% ) */
+}
+html,
+body,
+header,
+#intro{
+height: 100%;
+
+}
+
+#intro{
+background: url('../images/banner2.jpeg')no-repeat center center fixed;
+-webkit-background-size:cover;
+-moz-background-size:cover;
+-o-background-size:cover;
+background-size:cover;
+
+}
+.iconium-text{
+    color:#112f6b
+}
+/* Gradients*/
+
+.juicy-peach-gradient {
+    background-image: linear-gradient(to right, #ffecd2 0%, #fcb69f 100%);
+}
+.young-passion-gradient {
+    background-image: linear-gradient(to right, #ff8177 0%, #ff867a 0%, #ff8c7f 21%, #f99185 52%, #cf556c 78%, #b12a5b 100%);
+}
+.lady-lips-gradient {
+    background-image: linear-gradient(to top, #ff9a9e 0%, #fecfef 99%, #fecfef 100%);
+}
+.sunny-morning-gradient {
+    background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+}
+/*  */
+.rainy-ashville-gradient {
+    background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
+}
+.frozen-dreams-gradient {
+    background-image: linear-gradient(to top, #fdcbf1 0%, #fdcbf1 1%, #e6dee9 100%);
+}
+.warm-flame-gradient {
+    background-image: linear-gradient(45deg, #ff9a9e 0%, #fad0c4 99%, #fad0c4 100%);
+}
+.night-fade-gradient {
+    background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
+}
+.spring-warmth-gradient {
+    background-image: linear-gradient(to top, #fad0c4 0%, #ffd1ff 100%);
+}
+.winter-neva-gradient {
+    background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+}
+.dusty-grass-gradient {
+    background-image: linear-gradient(120deg, #d4fc79 0%, #96e6a1 100%);
+}
+.tempting-azure-gradient {
+    background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+}
+.heavy-rain-gradient {
+    background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+}
+.amy-crisp-gradient {
+    background-image: linear-gradient(120deg, #a6c0fe 0%, #f68084 100%);
+}
+.mean-fruit-gradient {
+    background-image: linear-gradient(120deg, #fccb90 0%, #d57eeb 100%);
+}
+.deep-blue-gradient {
+    background-image: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+}
+.ripe-malinka-gradient {
+    background-image: linear-gradient(120deg, #f093fb 0%, #f5576c 100%);
+}
+.cloudy-knoxville-gradient {
+    background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+}
+.morpheus-den-gradient {
+    background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
+}
+.rare-wind-gradient {
+    background-image: linear-gradient(to top, #a8edea 0%, #fed6e3 100%);
+}
+.near-moon-gradient {
+    background-image: linear-gradient(to top, #5ee7df 0%, #b490ca 100%);
+}
+
+
+
+
+
+
+
+
+
+
+
+/*---- Gradients ---*/
+.quote-floating {
+
+        width: 150px;
+        height: 150px;
+        position: relative;
+        z-index: 1;
+        vertical-align: middle;
+        display: inline-block;
+        overflow: hidden;
+        -webkit-transition: all .2s ease-in-out;
+        transition: all .2s ease-in-out;
+        margin: 10px;
+        border-radius: 50%;
+        padding: 0;
+        cursor: pointer;
+
+
+}
+.top-nav-collapse{
+   /* background-color: #880e4f;*/
+    /*background-color: #7f7e91;*/
+    background: rgba(36,9,56,.88);
+}
+.btn-us{
+    background-color: #ac85f0;
+    color:#ffab00;
+    color:#f9a825;
+    color:#fbc02d;
+    color:#ffd600;
+}
+.purples{
+color: #ac85f0
+}
+.peach-gradient {
+    background: linear-gradient(40deg,#ffd86f,#fc6262)!important;
+}
+.btn-rounded {
+    border-radius: 10em;
+}
+.gold-text{
+    color: rgba(36,9,56,.88);
+}
+.btn-gold1{
+    background-color: #ffab00;
+}
+.btn-gold2{
+    background-color: #f9a825;
+}
+
+.btn-gold3{
+    background-color: #fbc02d;
+}
+.btn-gold4{
+    background-color: #ffd600;
+}
+
+.gradient{
+    background: linear-gradient(40deg,#ff6ec4,#7873f5)!important;
+}
+.myCarousel .carousel-inner {
+    box-shadow: 0px 10px 25px 0px rgba(0, 0, 0, 0.3);
+}
+
+
+/*Technology Carousel*/
+#Technology{
+   margin:2px;
+}
+#wrapper {
+    width: 100%;
+    height: 220px;
+    /*margin: -110px 0 0 -367px;
+    position: absolute;*/
+    left: 50%;
+    top: 50%;
+}
+
+#carousel {
+    width: 100%;
+    position:relative;
+    margin-left:10px;
+    margin-right:10px;
+}
+@media (max-width:568px) {
+
+#wrapper{
+   width:80%;
+
+}
+#carousel {
+    width: 80%;
+
+}
+
+}
+#carousel ul {
+    list-style: none;
+    display: block;
+    margin: 0;
+    padding: 0;
+
+
+}
+#carousel li {
+    background: transparent url(../images/carousel_polaroid.png) no-repeat 0 0;
+    font-size: 40px;
+    color: #999;
+    text-align: center;
+    display: block;
+    width: 232px;
+    height: 178px;
+    padding: 0;
+    margin: 18px;
+    float: left;
+   text-align: center;
+    position: relative;
+}
+
+#carousel li img {
+    width: 201px;
+    height: 127px;
+    margin-top: 14px;
+    text-align: center;
+}
+
+#carousel li span {
+    background: transparent url(../images/carousel_shine.png) no-repeat 0 0;
+    text-indent: -999px;
+    display: block;
+    overflow: hidden;
+    width: 201px;
+    height: 127px;
+    position: absolute;
+    z-index: 2;
+   top: 14px;
+    left: 16px;
+}
+
+.clearfix {
+    float: none;
+    clear: both;
+}
+#carousel .prev, #carousel .next {
+    background: transparent url(../images/carousel_control.png) no-repeat 0 0;
+    text-indent: -999px;
+    display: block;
+    overflow: hidden;
+    width: 15px;
+    height: 21px;
+    margin-left: 10px;
+    position: absolute;
+   top: 70px;
+}
+#carousel .prev {
+    background-position: 0 0;
+    left: -30px;
+}
+#carousel .prev:hover {
+   left: -31px;
+}
+#carousel .next {
+    background-position: -18px 0;
+    right: -20px;
+}
+#carousel .next:hover {
+    right: -21px;
+}
+#carousel .pager {
+    text-align: center;
+    margin: 0 auto;
+}
+#carousel .pager a {
+    background: transparent url(../images/carousel_control.png) no-repeat -2px -32px;
+    text-decoration: none;
+    text-indent: -999px;
+    display: inline-block;
+    overflow: hidden;
+    width: 8px;
+    height: 8px;
+    margin: 0 5px 0 0;
+}
+#carousel .pager a.selected {
+    background: transparent url(../images/carousel_control.png) no-repeat -12px -32px;
+    text-decoration: underline;
+}
+section .contact {
+
+    height: auto;
+    background-color: #103f6d;
+
+}
+
+.postpage-v2 .input-group.md-form.form-sm.form-3 input {
+    border: 1px solid #e0e0e0;
+    -webkit-border-top-right-radius: .25rem;
+    border-top-right-radius: .25rem;
+    -webkit-border-bottom-right-radius: .25rem;
+    border-bottom-right-radius: .25rem;
+}

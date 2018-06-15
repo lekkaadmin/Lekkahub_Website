@@ -1,23 +1,23 @@
 /*!
  * Material Design for Bootstrap 4
- * Version: MDB FREE: 4.5.4
+ * Version: MDB FREE: 4.5.0
  *
  *
  * Copyright: Material Design for Bootstrap
- * https://mdbootstrap.com/
+ * http://mdbootstrap.com/
  *
- * Read the license: https://mdbootstrap.com/license/
+ * Read the license: http://mdbootstrap.com/license/
  *
  *
- * Documentation: https://mdbootstrap.com/
+ * Documentation: http://mdbootstrap.com/
  *
- * Getting started: https://mdbootstrap.com/getting-started/
+ * Getting started: http://mdbootstrap.com/getting-started/
  *
- * Tutorials: https://mdbootstrap.com/bootstrap-tutorial/
+ * Tutorials: http://mdbootstrap.com/bootstrap-tutorial/
  *
- * Templates: https://mdbootstrap.com/templates/
+ * Templates: http://mdbootstrap.com/templates/
  *
- * Support: https://mdbootstrap.com/forums/forum/support/
+ * Support: http://mdbootstrap.com/forums/forum/support/
  *
  * Contact: office@mdbootstrap.com
  *
@@ -28,14 +28,16 @@
 
 /*
 
-  jquery.easing.js
-  velocity.min.js
-  chart.js
-  wow.js
-  scrolling-navbar.js
-  waves.js
-  forms-free.js
-  enhanced-modals.js
+jquery-easing.js
+global.js
+velocity.js
+
+chart.js
+wow.js
+scrolling-nav.js
+waves.js
+forms-basic.js
+enhanced-modals.js
 
 */
 
@@ -15181,10 +15183,9 @@ $(window).scroll(function () {
 //Initialization
 Waves.attach('.btn:not(.btn-flat), .btn-floating', ['waves-light']);
 Waves.attach('.btn-flat', ['waves-effect']);
-Waves.attach('.chip', ['waves-effect']);
 Waves.attach('.view a .mask', ['waves-light']);
 Waves.attach('.waves-light', ['waves-light']);
-Waves.attach('.navbar-nav a:not(.navbar-brand), .nav-icons li a, .nav-tabs .nav-item:not(.dropdown)', ['waves-light']);
+Waves.attach('.navbar-nav a:not(.navbar-brand), .nav-icons li a, .navbar input', ['waves-light']);
 Waves.attach('.pager li a', ['waves-light']);
 Waves.attach('.pagination .page-item .page-link', ['waves-effect']);
 Waves.init();
